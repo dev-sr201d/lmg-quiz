@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
         <meta charset="utf-8">
         <title>Basic Form Quiz</title>
@@ -16,15 +16,16 @@
             <br>
             <label>
                 Frage<br>
-                <input type="text" id="quizQuestion" readonly disabled>
+                <textarea type="text" id="quizQuestion" rows="3" readonly disabled></textarea>
             </label><br>
             <br>
             <label>
                 Antwort<br>
-                <input type="text" id="quizAnswer" readonly>
+                <input type="text" id="quizAnswer">
             </label><br>
             <br>
             <button type="submit" id="quizButton">Absenden</button>
+            <p id="quizMessage"></p>
         </form>
     </body>
 </html>
